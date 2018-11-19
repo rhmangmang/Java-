@@ -18,3 +18,8 @@ public class test {
         for (myStruct item : list) { System.out.println(item.name + " " + item.age); }
     }
 }
+
+/*
+当比较器返回正数时，第一个参数myStruct a对应的对象会被放到后面。
+当比较器返回负数时，第一个参数myStruct a对应的对象会被放到前面。
+*/
